@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.noahnu.cordova.preventexit" version="0.0.1">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		id="com.noahnu.cordova.preventexit"
+		version="0.1.0">
 	<name>PreventExit</name>
 	<description>Prevent user from exiting app.</description>
 	<author>noahnu.com</author>
 	<license>MIT License</license>
 	<keywords>cordova,security</keywords>
 	<js-module src="www/preventexit.js" name="PreventExit">
-		<clobbers target="window.PreventExit" />
+		<clobbers target="window.plugins.preventExit" />
 	</js-module>
 	<engines>
 		<engine name="cordova" version=">=4.0.0" />

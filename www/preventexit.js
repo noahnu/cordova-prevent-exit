@@ -9,4 +9,5 @@ var PreventExit = {
 	}
 };
 
-module.exports = PreventExit;
+window.plugins = window.plugins || {};
+window.plugins.preventExit = PreventExit;
