@@ -2,5 +2,6 @@
 Prevent user from exiting the app.
 
 ```
-PreventExit.enable();
+window.plugins.preventExit.enable();
+window.plugins.preventExit.disable();
 ```
